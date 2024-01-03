@@ -1214,6 +1214,18 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.9.2.tgz#830f3a3fba67f6216a5884368431918029045afe"
   integrity sha512-SYRedJi+mweatroB+6TTnJYLts0L0bosg531xnQWtklOI6dezEagx4Q0qDyvRdK+qgdA3YZpjjGuPFtxBmddBA==
 
+"@shopify/graphql-client@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@shopify/graphql-client/-/graphql-client-0.8.0.tgz#cfddbc913f56e7f3a1ad28d768013f6a4b598c20"
+  integrity sha512-YtEwYVUzV5n1fyQoc3Rsd5Y1F8OWP27dVe8/gQ3xNy7MLlRIOd3uT9/2LagUNM2cGw3tSrc8d35XG/cKFnCVyg==
+
+"@shopify/storefront-api-client@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@shopify/storefront-api-client/-/storefront-api-client-0.1.1.tgz#57aea64603e6980c1b384dde0d3b0e9ee616dd6c"
+  integrity sha512-OwwWPfQIjNrwcfSC21zqSeOtk29EXYF0+TOCHYIzmb5PMLsp9y8wZRlQf7oNAVNpUBLr7ibcvjYy7LwC4Yzf0w==
+  dependencies:
+    "@shopify/graphql-client" "^0.8.0"
+
 "@sigstore/bundle@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@sigstore/bundle/-/bundle-2.1.0.tgz#c6140ca97b68815edf7c4fb7bdbf58d656525c39"

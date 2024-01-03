@@ -29,6 +29,7 @@
 		"vue-router": "^4.2.5"
 	},
 	"dependencies": {
-		"@pinia/nuxt": "^0.5.1"
+		"@pinia/nuxt": "^0.5.1",
+		"@shopify/storefront-api-client": "^0.1.1"
 	}
 }
