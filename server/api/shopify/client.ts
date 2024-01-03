@@ -1,9 +1,9 @@
 import { createStorefrontApiClient } from '@shopify/storefront-api-client';
 
-const runtimeConfig = useRuntimeConfig();
-const storeDomain = runtimeConfig.storeDomain;
-const apiVersion = runtimeConfig.apiVersion;
-const privateAccessToken = runtimeConfig.privateAccessToken;
+const config = useRuntimeConfig();
+const storeDomain = config.storeDomain;
+const apiVersion =  config.apiVersion;
+const privateAccessToken = config.privateAccessToken;
 
 export const shopifyClient = createStorefrontApiClient({
 	storeDomain,
