@@ -2,6 +2,10 @@
 	"name": "nuxt-shopify-starter",
 	"private": true,
 	"type": "module",
+	"engines": {
+		"node": "20.x",
+		"npm": ">=7.0.0"
+	},
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
